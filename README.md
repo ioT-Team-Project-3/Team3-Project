@@ -5,7 +5,9 @@
 ## 프로젝트 주제
 
 <img src="https://github.com/ioT-Team-Project-3/Team3-Project/blob/main/img/Crossy%20Road.png?raw=true" width="256" height="256">
+
 [![길건너친구들(CrossyRoad)](https://youtu.be/a3pTw0jmxlg/0.jpg)](https://youtu.be/a3pTw0jmxlg) 
+
 - **게임 프로젝트**
 - **길건너 친구들풍 장르**
 - **터치패널 사용**
