@@ -10,6 +10,8 @@
 - **길건너 친구들풍 장르**
 - **터치패널 사용**
 
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=a3pTw0jmxlg" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+
 ## 기존 프로젝트 조사
 
 ### 가위바위보 게임
