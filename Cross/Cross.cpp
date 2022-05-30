@@ -272,7 +272,7 @@ class Cross {
     bool isPlaying() { 
 
         // 플레이가 맵 아래로 이탈하지 않았는 지 확인
-        if (currentYX.y > 7) {
+        if (currentYX.y < 8) {
 
             // 장애물들에 대한 접근
             for (int i = 0; i < obstacles.size(); i++) {

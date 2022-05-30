@@ -97,7 +97,7 @@ public:
                 head = TSW.get();
 
                 // if (!(obstacleTimer % (TIME_QUANTUM*30)))
-                if (obstacleTimer > (TIME_QUANTUM*30)) { // 맵의 이동속도
+                if (obstacleTimer > (TIME_QUANTUM*15)) { // 맵의 이동속도
 
                     // 장애물 타이머 초기화
                     obstacleTimer = 0;
