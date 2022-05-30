@@ -37,7 +37,6 @@ public:
     // 지정된 시간동안 FND에 출력
     void draw(int microSec)
     {
-        // shout out to 변우섭
         openFND();
         unsigned char Hex_Code[4];
         memset(Hex_Code, 0x00, sizeof(Hex_Code));
