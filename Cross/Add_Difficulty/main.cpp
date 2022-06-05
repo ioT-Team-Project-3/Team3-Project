@@ -31,8 +31,8 @@ class Game
 {
 private:
     int highScore;
-	int dif_map;
-	int dif_obs;
+    int dif_map;
+    int dif_obs;
     Cross s;
     DotMatrix DM;
     TactSW TSW;
@@ -72,25 +72,25 @@ public:
             while (TSW.get() != 4)
                 ;
 
-			CL.choose_dif
-			//TactSW가 난이도 선택 버튼을 누를때까지 대기 (10,11,12번 버튼)
-			while (1) {
-				if (TSW.get() == 5) {
-					dif_map = 10;
-					dif_obs = 5;
-					break;
-				}
-				if (TSW.get() == 6) {
-					dif_map = 15;
-					dif_obs = 10;
-					break;
-				}
-				if (TSW.get() == 7) {
-					dif_map = 20;
-					dif_obs = 15;
-					break;
-				}
-			}
+	    CL.choose_dif
+	    //TactSW가 난이도 선택 버튼을 누를때까지 대기 (10,11,12번 버튼)
+	    while (1) {
+		if (TSW.get() == 5) {
+		    dif_map = 10;
+		    dif_obs = 5;
+		    break;
+		}
+		if (TSW.get() == 6) {
+		    dif_map = 15;
+		    dif_obs = 10;
+		    break;
+		}
+		if (TSW.get() == 7) {
+		    dif_map = 20;
+		    dif_obs = 15;
+		    break;
+		}
+	    }
 
             //타이머와 스코어 초기화
             horizonTimer = 0;
