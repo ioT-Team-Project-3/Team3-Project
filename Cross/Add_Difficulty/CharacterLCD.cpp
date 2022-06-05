@@ -46,12 +46,12 @@ public:
         print(s1 + s2);
     }
 
-	void choose_dif()
-	{
-		string s1 = "   Choose Dif   ";
-		string s2 = "Easy Normal Hard";
-		print(s1 + s2);
-	}
+    void choose_dif()
+    {
+	string s1 = "   Choose Dif   ";
+	string s2 = "Easy Normal Hard";
+	print(s1 + s2);
+    }
 
     void gaming(int highScore)
     {
