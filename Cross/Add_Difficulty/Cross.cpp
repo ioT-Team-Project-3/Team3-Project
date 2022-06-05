@@ -27,7 +27,7 @@ typedef enum : int
     OK,
     EASY,
     NORMAL,
-    HARD
+        HARD
 } UDLR;
 
 typedef struct obstacle {
