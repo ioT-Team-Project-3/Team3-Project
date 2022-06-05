@@ -34,7 +34,7 @@ public:
         case 8:
             return 1;
 
-		// ³­ÀÌµµ Á¶Àı¿ë TactSW ÇÒ´ç
+		// ë‚œì´ë„ ì¡°ì ˆìš© TactSW 
 		case 10:
 			return 5;
 		case 11:
