@@ -20,14 +20,14 @@ typedef struct coord
 //ENUM을 활용해서 0,1,2,3,4,5,6,7을 설정
 typedef enum : int
 {
-	UP,
-	DOWN,
-	LEFT,
-	RIGHT,
-	OK,
-	EASY,
-	NORMAL,
-	HARD
+    UP,
+    DOWN,
+    LEFT,
+    RIGHT,
+    OK,
+    EASY,
+    NORMAL,
+    HARD
 } UDLR;
 
 typedef struct obstacle {
