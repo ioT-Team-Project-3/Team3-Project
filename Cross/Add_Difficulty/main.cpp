@@ -72,7 +72,7 @@ public:
             while (TSW.get() != 4)
                 ;
 
-	    CL.choose_dif
+	    CL.choose_dif();
 	    //TactSW가 난이도 선택 버튼을 누를때까지 대기 (10,11,12번 버튼)
 	    while (1) {
 		if (TSW.get() == 5) {
