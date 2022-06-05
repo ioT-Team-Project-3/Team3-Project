@@ -34,13 +34,13 @@ public:
         case 8:
             return 1;
 
-		// 난이도 조절용 TactSW 
-		case 10:
-			return 5;
-		case 11:
-			return 6;
-		case 12:
-			return 7;
+	// 난이도 조절용 TactSW 
+	case 10:
+		return 5;
+	case 11:
+		return 6;
+	case 12:
+		return 7;
 
         default:
             return -1;
