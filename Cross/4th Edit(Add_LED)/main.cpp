@@ -227,7 +227,7 @@ public:
                                 exit = false;
                                 break;
                             }
-                            if (endTime - startTime == 0) // 5초 경과시 실패
+                            if (endTime - startTime == 0) // 10초 경과시 실패
                             {
                                 exit = false;
                                 break;
@@ -246,7 +246,7 @@ public:
                                 score++;
                                 break;
                             }
-                            if (endTime - startTime == 0) // 5초 경과시 실패
+                            if (endTime - startTime == 0) // 10초 경과시 실패
                             {
                                 exit = false;
                                 break;
