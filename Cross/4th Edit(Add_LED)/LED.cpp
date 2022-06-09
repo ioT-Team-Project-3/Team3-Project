@@ -3,16 +3,11 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-const unsigned char ledArray[9] = {
-    0xFE,
-    0xFD,
-    0xFB,
-    0xF7,
-    0xEF,
-    0xDF,
-    0xBF,
-    0x7F,
-    0x00};
+const unsigned char ledArray[4] = {
+    0xFE, //R
+    0xFD, //Y
+    0xF7, //B
+};
 class LED
 {
 private:
@@ -30,11 +25,11 @@ public:
         led_fd = -1;
     }
 
-    void blue() { offset = 3; }
+    void red() { offset = 0; }
 
     void yellow() { offset = 1; }
 
-    void red() { offset = 0; }
+    void blue() { offset = 2; }
 
     void draw(int microSec)
     {
